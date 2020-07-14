@@ -1,0 +1,29 @@
+.levus-accordion .title {
+    cursor: pointer;
+    position: relative;
+    background: yellowgreen;
+    padding: 5px 10px;
+}
+
+.levus-accordion .title::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -10px;
+    display: block;
+}
+
+.levus-accordion .description {
+    -webkit-transition: transform .05s, height .4s;
+    transition: transform .05s, height .4s;
+    transform: rotateX(90deg);
+    height: 0;
+}
+
+.levus-accordion .description.show {
+    -webkit-transition: transform .3s, height .7s;
+    transition: transform .3s, height .7s;
+    transform: rotateX(0);
+    height: auto;
+}
