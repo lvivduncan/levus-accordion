@@ -7,6 +7,6 @@
 
 Демо: https://lvivduncan.github.io/levus-accordion/
 
-Для першого варіанту використовувати такий код: ```document.querySelectorAll('.levus-accordion .title') && new Accordion('.levus-accordion .title').single();```
+Для першого варіанту використовувати такий код: <br>```document.querySelectorAll('.levus-accordion .title') && new Accordion('.levus-accordion .title').single();```
 
-Для другого варіанту такий: ```document.querySelectorAll('.levus-accordion .title') && new Accordion('.levus-accordion .title').multiply();```
+Для другого варіанту такий: <br>```document.querySelectorAll('.levus-accordion .title') && new Accordion('.levus-accordion .title').multiply();```
