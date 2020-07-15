@@ -8,6 +8,7 @@
     })
 }); */
 
+// 15-07-2020
 class Accordion {
     constructor(title) {
             this.title = document.querySelectorAll(title);
