@@ -12,7 +12,7 @@ class Accordion {
     constructor(title) {
             this.title = document.querySelectorAll(title);
         }
-        // якщо тре розкривати тільки 1
+        // якщо тре розкривати/закривати тільки 1
     single() {
         this.title.forEach(item => {
             item.addEventListener('click', function() {
